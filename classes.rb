@@ -7,9 +7,14 @@ end
 
 
 class Player
-  def initialize(n)
+attr_accessor :name :score :lives
+
+  def initialize(n, s = 0, l = 3)
     self.name = n
-  def
+    self.score = s
+    self.lives = l
+  end
+  
 end
 
 
